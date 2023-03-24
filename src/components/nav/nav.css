@@ -16,7 +16,7 @@ nav{
 }
 
 nav a{
-    background-color: transparent;
+    background-color: black;
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
