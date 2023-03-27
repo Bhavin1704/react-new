@@ -112,7 +112,7 @@ img{
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /**=================  Media Queties Medium Devices  =======================*/

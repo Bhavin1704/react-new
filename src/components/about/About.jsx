@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from "../../assets/me.png"
+import ME from "../../assets/bhavin2.JPEG"
 import {FaAward} from 'react-icons/fa'
 import {FiUser} from 'react-icons/fi'
 import {VsFolderLibrary} from 'react-icons/vsc'
@@ -43,8 +43,8 @@ export const About = () => {
               </article>
              
             </div>
-            <p>
-                Lorem Epsum  Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum
+              <p>
+                2+ years of experience Web Developer specializing in back end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML5, PHP, JavaScript, Jquery Ajax, CSS, MySQL,Tailwind. Strong background in Client Communication with Project Management
               </p>
               <a href='#contact' className='btn btn-primary'>Let's Talk</a>
           </div>
