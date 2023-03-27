@@ -3,12 +3,21 @@ import {FaFacebook} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
 import './footer.css'
+import { useState, useEffect } from 'react';
 
 export const Footer = () => {
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    fetch("http://localhost:8000/name")
+      .then((res) => res.json())
+      .then((data) => setName(data.name));
+  }, []);
+
   return (
 
     <footer>
-      <a href="#" className='footer__logo'>Bhavin Panchal</a>
+      <a href="#" className='footer__logo'>{name}</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
