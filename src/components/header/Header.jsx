@@ -18,6 +18,7 @@ export const Header = () => {
 
   return (
     <header>
+      <button className='btn'></button>
       <div className='container header__container'>
         <h5>Hello I'm</h5>
         <h1>{name}</h1>
